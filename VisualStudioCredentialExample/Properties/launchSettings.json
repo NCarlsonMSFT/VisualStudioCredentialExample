@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Docker": {
+      "commandName": "Docker"
+    },
+    "VisualStudioCredentialExample": {
+      "commandName": "Project"
+    }
+  }
+}

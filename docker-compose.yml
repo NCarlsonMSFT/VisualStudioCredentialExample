@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  visualstudiocredentialexample:
+    image: ${DOCKER_REGISTRY-}visualstudiocredentialexample
+    build:
+      context: .
+      dockerfile: VisualStudioCredentialExample/Dockerfile
