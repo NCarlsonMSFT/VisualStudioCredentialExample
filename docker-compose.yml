@@ -6,3 +6,9 @@ services:
     build:
       context: .
       dockerfile: VisualStudioCredentialExample/Dockerfile
+
+  functionappisolated:
+    image: ${DOCKER_REGISTRY-}functionappisolated
+    build:
+      context: .
+      dockerfile: FunctionAppIsolated/Dockerfile

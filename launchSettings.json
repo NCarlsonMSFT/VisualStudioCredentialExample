@@ -3,8 +3,12 @@
     "Docker Compose": {
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "functionappisolated",
+      "composeLaunchUrl": "http://localhost:31340/api/Function1",
       "serviceActions": {
-        "visualstudiocredentialexample": "StartDebugging"
+        "visualstudiocredentialexample": "StartDebugging",
+        "functionappisolated": "StartDebugging"
       }
     }
   }

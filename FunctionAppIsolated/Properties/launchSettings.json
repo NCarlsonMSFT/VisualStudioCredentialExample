@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "FunctionAppIsolated": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7128"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "http://localhost:31340/api/Function1",
+      "httpPort": 31340,
+      "useSSL": false,
+      "launchBrowser": true
+    }
+  }
+}

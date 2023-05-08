@@ -1,1 +1,6 @@
 version: '3.4'
+
+services:
+  functionappisolated:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
