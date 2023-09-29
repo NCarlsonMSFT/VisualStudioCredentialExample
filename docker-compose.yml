@@ -12,3 +12,9 @@ services:
     build:
       context: .
       dockerfile: FunctionAppIsolated/Dockerfile
+
+  functionappintegrated:
+    image: ${DOCKER_REGISTRY-}functionappintegrated
+    build:
+      context: .
+      dockerfile: FunctionAppIntegrated/Dockerfile

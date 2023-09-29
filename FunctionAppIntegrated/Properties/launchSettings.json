@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "FunctionAppIntegrated": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7058"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32767,
+      "useSSL": false
+    }
+  }
+}

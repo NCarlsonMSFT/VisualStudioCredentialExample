@@ -8,7 +8,8 @@
       "composeLaunchUrl": "http://localhost:31340/api/Function1",
       "serviceActions": {
         "visualstudiocredentialexample": "StartDebugging",
-        "functionappisolated": "StartDebugging"
+        "functionappisolated": "StartDebugging",
+        "functionappintegrated": "StartDebugging"
       }
     }
   }

@@ -1,0 +1,9 @@
+#See https://aka.ms/overrideVSDockerComposeConfiguration to understand how Visual Studio uses this override file.
+
+version: '3.4'
+
+# Set the stage to debug to use an image with the .NET 6 runtime in it
+services:
+  functionappintegrated:
+    build:
+      target: debug

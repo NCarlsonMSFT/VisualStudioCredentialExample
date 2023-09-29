@@ -4,3 +4,7 @@ services:
   functionappisolated:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+
+  functionappintegrated:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
