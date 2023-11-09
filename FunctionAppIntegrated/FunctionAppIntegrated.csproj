@@ -8,8 +8,8 @@
     <DockerfileFastModeStage>debug</DockerfileFastModeStage>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Azure.Identity" Version="1.10.1" />
-    <PackageReference Include="Azure.ResourceManager" Version="1.7.0" />
+    <PackageReference Include="Azure.Identity" Version="1.10.3" />
+    <PackageReference Include="Azure.ResourceManager" Version="1.8.1" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.2.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
   </ItemGroup>
